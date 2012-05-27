@@ -47,7 +47,7 @@ module Readit
 
     attr_reader :access_token
 
-    SITE_URL = 'https://www.readability.com/'
+    SITE_URL = 'https://www.readability.com'
 
     # Retrieve the base API URI - information about subresources.
     def resource_info
